@@ -93,7 +93,14 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-
+    .top video {
+        display: none
+    }
+    .top {
+        background-image: url(./image/s13.jpg);
+        background: cover;
+        object-fit: cover;
+    }
 }
 
 .top::before {
